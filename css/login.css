@@ -22,7 +22,7 @@ body {
 .modal-content {
     background-color: #28005b ;
     opacity: .85;
-    padding: 10px 13px;
+    padding: 10px 24px;
     border-radius: 25px;
 }
 
@@ -54,27 +54,14 @@ p {
 
 .log-or-signup {
     display: flex;
-    justify-content: center;
-}
-
-.login {
-    padding-left: 30px;
-}
-
-.sign-up {
-    padding-right: 30px;
+    justify-content: space-evenly;
 }
 
 .btn-success {
     margin-bottom: 30px;
-    padding-bottom: 35px;
     height: 40px;
     background-color:	#111111;
-    font-size: 18px;
-}
-
-#signup {
-    height: 70px;
+    font-size: 12pt;
 }
 
 .btn-success:hover {
