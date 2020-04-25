@@ -6,59 +6,66 @@
         <link rel="sytlesheet" href="css/bootstrap.min.css"/>
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/bootstrap-grid.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
         
     </head>
-    <body>
+    <body style="font-family: Montserrat; background-color: #c4fdff;">
         <header>
             </logo>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="font-size: 17px; background-color: black !important; height: 2.8em;" >
+                <a class="navbar-brand " style="color: white; font-size: 24px;" href="#">Andorin</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
               
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"> 
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
+                      <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Notifications
                       </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Shit is real, shit is getting real</a>
+                        <a class="dropdown-item" href="#">Shit your fucked-up friend posted</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Change which notifications you want to see</a>
                       </div>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <li class="nav-item active " > 
+                      <a class="nav-link" style="color: white;"  href="#"> What's happening <span class="sr-only">(current)</span></a>
                     </li>
+                    <li class="nav-item">
+                      <a class="nav-link" style="color: white;" href="#"> Profile </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" style="color: white;" href="#"> Settings </a>
+                    </li>
+                    
                   </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  <form class="form-inline my-2 my-lg-0  input-group-sm" >
+                    <input class="form-control mr-sm-2" style="height: 35px;" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-info my-2 my-sm-0 btn-sm" style="height: 35px; font-size: 17px;" type="submit">Search</button>
                   </form>
                 </div>
               </nav>
         </header>
-        <div id="container">
-          <div class="row">
-            <div class="col-md-8 text-center" id="main">
-              Cu verde
+        
+        <section class="container"> <!-- A seção principal da página, na qual constarão uma ou mais colunas, conforme a necessidade. A class container meramente nos serve aqui para manter um espaço negativo nas laterais da página, não utilizado-->
+            <div class="row">  <!-- Esta row servirá para dispor horizontalmente as possíveis colunas, reunidas nesta mesma div para fins de devida configuração-->
+              <div class="col-md-8 mt-4 pt-3 px-0 bg-warning" id="main"> <!-- Aqui vemos a primeira coluna-->
+                <div class="card">
+                  <div class="card-body">
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mt-4 pt-3 bg-info" id="sidebar"> <!-- Aqui vemos a segunda coluna -->
+              </div>
             </div>
-            <div class="col-md-4" id="sidebar">
-              C-u azulay
-            </div>
-          </div>
-        </div>
-        <footer>
+        </section>
 
+        <!-- O footer do site, obviamente-->
+        <footer>
         </footer>
 
         <script src="js/jquery.min.js" ></script>
