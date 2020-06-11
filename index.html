@@ -7,6 +7,8 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/bootstrap-grid.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/andorin.css">
+       
         
     </head>
     <body style="font-family: Montserrat; background-color: #c4fdff;">
@@ -68,29 +70,79 @@
                 </div>
               </nav>
         </header>
-        <!-- A seção principal da página, na qual constarão uma ou mais colunas, 
-        conforme a necessidade. A class container meramente nos serve aqui para 
-        manter um espaço negativo nas laterais da página, não utilizado-->
-        <section class="container"> 
-          <!-- Esta row servirá para dispor horizontalmente as possíveis colunas, 
-          reunidas nesta mesma div para fins de devida configuração-->
-          <div class="row">  
-            <!-- Aqui vemos a primeira coluna-->
-            <div class="col-md-8 mt-4 pt-3 px-0 bg-warning" id="main"> 
-              <div class="card">
-                <div class="card-body">
-                  
+        
+        <section class="container-fluid"> <!-- A seção principal da página, na qual constarão uma ou mais colunas, conforme a necessidade. A class container meramente nos serve aqui para manter um espaço negativo nas laterais da página, não utilizado-->
+            <div class="row justify-content-center">  <!-- Esta row servirá para dispor horizontalmente as possíveis colunas, reunidas nesta mesma div para fins de devida configuração-->
+
+
+              <!-- Anúnciosss -->
+              <div class="col-md-1 mt-4 px-0 nd-anuncios" > 
+
+                <div class="anuncio">
+                  <img src="img/polishop-ad.jpg">
+                  <p>Polishop electric kettle for your kitchen</p>
                 </div>
+
               </div>
+
+
+              <!-- Feed de posts -->
+              <div class="col-md-6 mt-4 pt-3  nd-posts"> 
+            
+                <div class="post">
+
+                  <div class="top-of-the-post"></div>
+                    <a><img src="img/profile-image.png" class="profile-image-at-post"></a>
+                    <div class="post-username">
+                      <h2>Franz Kafka</h2>
+                    </div>
+                    <div class="post-date">
+                      <span> 20/02/2020 </span>
+                    </div>
+                  </div>
+
+                  <div class="nucleus-of-the-post">
+                    <p class="main-text"> Guys, I can't stand this bureaucracy thing</p>
+                  </div>
+                  
+                  <div class="bottom-of-the-post">
+                    <i src="Ícone do like or whatever..."></i>
+                    <p>14 people liked this post</p>
+                    <button> Comments </button>
+                    <button> Share </button>
+                  </div>
+
+                </div>
+
+                <div class="post">
+
+                </div>
+
+                <div class="post">
+
+                </div>
+               
+
+              </div>
+
+
+              <!-- chat -->
+              <div class="col-md-3 mt-4 pt-3 nd-chat" > 
+
+
+
+                
+              </div>
+
+
             </div>
-            <!-- Aqui vemos a segunda coluna -->
-            <div class="col-md-4 mt-4 pt-3 bg-info" id="sidebar"> 
-            </div>
-          </div>
+
+
+
         </section>
 
-        <!-- O footer do site, obviamente-->
-        <footer>
+        
+        <footer> <!-- O footer do site, obviamente-->
         </footer>
 
         <script src="js/jquery.min.js" ></script>

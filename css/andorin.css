@@ -1,0 +1,71 @@
+
+/* Página dos posts */ 
+
+.nd-anuncios {
+            
+}
+
+.anuncio {
+  font-size: 0.4rem;
+  font-weight: bold;
+  margin: 0.5em;
+  padding: 0.75em;
+  border: solid black 2px;
+}
+
+.anuncio img { 
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-bottom: 1em;
+    border: solid black 2px;
+}
+
+/* Coluna dos posts começa aqui */
+
+.nd-posts {
+    border: solid black 2px;
+    margin-right: 0.2rem;
+    font-size: 0.5em;
+}
+
+.top-of-the-post {
+   display: flex;
+   justify-content: left;
+}
+
+.profile-image-at-post {
+    width: 36px;
+    height: 36px;
+    display: inline;
+    width: 5%;
+}
+
+.post-username {
+    font-size: 18px;
+    display: inline-block;
+    width: 30%;
+}
+
+
+.post-date {
+    display: inline-flex;
+    justify-content: right;
+    width: 60%;
+}
+
+.post-date span {
+    display: inline-block;
+}
+
+
+
+
+.nucleus-of-the-post {
+    display: block;
+}
+
+/* Coluna do chat começa aqui */
+.nd-chat {
+    border: solid black 2px;
+}
