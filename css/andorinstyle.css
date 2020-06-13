@@ -52,6 +52,7 @@
 }
 .nd-posts .post .top-of-the-post .post-username span {
   display: inline-block;
+  font-weight: 600;
 }
 .nd-posts .post .top-of-the-post .post-date {
   display: inline-flex;
@@ -63,6 +64,9 @@
 }
 .nd-posts .post .nucleus-of-the-post {
   display: block;
+}
+.nd-posts .post .nucleus-of-the-post .main-text {
+  font-weight: 600;
 }
 .nd-posts .post .bottom-of-the-post p {
   display: inline-block;

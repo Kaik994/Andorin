@@ -60,6 +60,7 @@ $verdinho : #73d8f7;
                 justify-content: flex-start;
                 span {
                     display: inline-block;
+                    font-weight: 600;
                 }
             }
             .post-date {
@@ -76,6 +77,9 @@ $verdinho : #73d8f7;
 
         .nucleus-of-the-post {
             display: block;
+            .main-text {
+                font-weight: 600;
+            }
         }
 
         .bottom-of-the-post {
