@@ -1,9 +1,14 @@
 /* andorinstyle.scss */
 
 /* Página dos posts */ 
+/*Cores anteriores: #73d8f7 #c4fdff */
+/*Azul clarinho: #eafcff */
 
-$verdinho : #73d8f7;
+$verdinho : #eafcff;
 
+.body {
+    background-color: white;
+}
 
 .nd-anuncios {
     padding: 30px;
@@ -11,6 +16,9 @@ $verdinho : #73d8f7;
         font-size: 0.4rem;
         font-weight: bold;
         margin-right: 1em;
+        border-radius: 15px;
+        background-color: $verdinho;
+        padding: 1em;
         
           img { 
               height: 100px;
