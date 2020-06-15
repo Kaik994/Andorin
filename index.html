@@ -13,13 +13,15 @@
     </head>
     <body style="font-family: Montserrat; background-color: #c4fdff;">
         <header>
-            </logo>
+            <!--Começa a barra de navegação em geral, cujas subdivisões se esclarecem a seguir.-->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="font-size: 17px; background-color: black !important; height: 2.8em;" >
+                <!-- Logo do Andorin (basicamente o próprio nome apenas, por enquanto) e o botão em que colapsa o menu no mobile-->
                 <a class="navbar-brand " style="color: white; font-size: 24px;" href="#">Andorin</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
               
+                <!-- Início do menu propriamente dito, com seus itens (e subitens) e forma para pesquisa-->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
                     <li class="nav-item dropdown">
@@ -44,6 +46,7 @@
                     </li>
                     
                   </ul>
+                  <!--A forma de pesquisa que havíamos citado acima começa aqui.-->
                   <form class="form-inline my-2 my-lg-0  input-group-sm" >
                     <input class="form-control mr-sm-2" style="height: 35px;" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-info my-2 my-sm-0 btn-sm" style="height: 35px; font-size: 17px;" type="submit">Search</button>
@@ -69,6 +72,26 @@
 
               <!-- Feed de posts -->
               <div class="col-md-5 mt-4 pt-3  nd-posts"> 
+
+                <div class="post">
+
+                  <div class="top-of-the-post">
+                    <!--Como aqui se trata do input de post e não do post feito, não é preciso nada nesta seção.-->
+                  </div>
+
+                  <div class="nucleus-of-the-post">
+
+                    <p>Write your post here and share your ideas</p>
+                    <input type="text">
+                    <br>
+
+                  </div>
+                  
+                  <div class="bottom-of-the-post">
+                    <!--Como aqui se trata do input de post e não do post feito, não é preciso nada nesta seção.-->
+                  </div>
+
+                </div>
             
                 <div class="post">
 
@@ -147,6 +170,43 @@
 
                 <div class="post">
 
+                  <div class="top-of-the-post">
+                    <div class="post-profile-image">
+
+                      <img src="img/profile-image.png">
+
+                    </div> 
+                    <div class="post-username">
+
+                      <span>John Synth</span>
+
+                    </div>
+                    <div class="post-date">
+
+                      <span> 01/03/2020 </span>
+
+                    </div>
+                  </div>
+
+                  <div class="nucleus-of-the-post">
+
+                    <img src="img/synthwavecity.jpg">
+                    <br>
+                    <br>
+                    <p class="main-text"> A scene of my new video. </p>
+
+                  </div>
+                  
+                  <div class="bottom-of-the-post">
+
+                    <i src="Ícone do like or whatever..."></i>
+                    <button class="darkbutton"> Like this </button>
+                    <button class="darkbutton"> Comments </button>
+                    <button class="darkbutton"> Share </button>
+                    <br>
+                    <p>14 people liked this post</p>
+                  </div>
+
                 </div>
                
 
@@ -190,6 +250,7 @@
 
 
         </section>
+        
 
         
         <footer> <!-- O footer do site, obviamente-->
