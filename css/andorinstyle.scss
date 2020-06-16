@@ -3,9 +3,17 @@
 /* Página dos posts */ 
 /*Cores anteriores: #73d8f7 #c4fdff */
 /*Azul clarinho: #eafcff */
+/* Outro azul anteriormente utilizado: #90fbff  */
 
-$verdinho : #eafcff;
+$verdinho : #b0f3ff;
 
+$transitioncolor: #fbf84b;
+
+body {
+    font-family: Montserrat;
+    background-color: rgb(251, 255, 250);
+
+}
 
 .nd-anuncios {
     padding: 30px;
@@ -29,6 +37,22 @@ $verdinho : #eafcff;
              
 }
 
+@media (max-width: 900px) { /*Não parece estar funcionando direito */
+    .nd-anuncios {
+        width: 100%;
+        .anuncio {
+            width: 25%;
+            margin: auto;
+            img {
+                width: 100%;
+                margin: 15px auto;
+                
+            }
+        }
+        
+    }
+}
+
 
 /* Coluna dos posts começa aqui */
 
@@ -42,6 +66,7 @@ $verdinho : #eafcff;
         border-radius: 15px;
         padding: 30px 30px 15px 30px;
         background-color: $verdinho;
+        transition-duration: 500ms;
         
         .top-of-the-post {
             display: flex;
@@ -114,7 +139,9 @@ $verdinho : #eafcff;
         }
         
     }
-    
+    .post:hover {
+        background-color: $transitioncolor;
+    }
 
 
 

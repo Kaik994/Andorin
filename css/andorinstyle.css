@@ -3,6 +3,12 @@
 /* Página dos posts */
 /*Cores anteriores: #73d8f7 #c4fdff */
 /*Azul clarinho: #eafcff */
+/* Outro azul anteriormente utilizado: #90fbff  */
+body {
+  font-family: Montserrat;
+  background-color: #fbfffa;
+}
+
 .nd-anuncios {
   padding: 30px;
 }
@@ -11,7 +17,7 @@
   font-weight: bold;
   margin-right: 1em;
   border-radius: 15px;
-  background-color: #eafcff;
+  background-color: #b0f3ff;
   padding: 1em;
 }
 .nd-anuncios .anuncio img {
@@ -23,6 +29,20 @@
   border-radius: 15px;
 }
 
+@media (max-width: 900px) {
+  /*Não parece estar funcionando direito */
+  .nd-anuncios {
+    width: 100%;
+  }
+  .nd-anuncios .anuncio {
+    width: 25%;
+    margin: auto;
+  }
+  .nd-anuncios .anuncio img {
+    width: 100%;
+    margin: 15px auto;
+  }
+}
 /* Coluna dos posts começa aqui */
 .nd-posts {
   margin-right: 0.2rem;
@@ -33,7 +53,8 @@
   /* border: solid black 2px; */
   border-radius: 15px;
   padding: 30px 30px 15px 30px;
-  background-color: #eafcff;
+  background-color: #b0f3ff;
+  transition-duration: 500ms;
 }
 .nd-posts .post .top-of-the-post {
   display: flex;
@@ -96,12 +117,15 @@
   border-radius: 15px;
   margin-bottom: 0.3rem;
 }
+.nd-posts .post:hover {
+  background-color: #fbf84b;
+}
 
 /* Coluna do chat começa aqui */
 .nd-chat .chat {
   /* border: solid black 2px; */
   border-radius: 15px;
-  background-color: #eafcff;
+  background-color: #b0f3ff;
   margin-bottom: 5px;
 }
 .nd-chat .chat img {
