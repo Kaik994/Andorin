@@ -5,9 +5,9 @@
 /*Azul clarinho: #eafcff */
 /* Outro azul anteriormente utilizado: #90fbff  */
 
-$verdinho : #b0f3ff;
+/* Outro azul anteriormente utilizado: #b0f3ff     */
 
-$transitioncolor: #fbf84b;
+$verdinho :  #effcff;
 
 body {
     font-family: Montserrat;
@@ -32,8 +32,11 @@ body {
               margin-bottom: 1em;
               /* border: solid black 2px; */
               border-radius: 15px;
-          }
-      }
+            }
+    }
+    .anuncio:hover {
+        border: 2px solid #43005d;
+    } 
              
 }
 
@@ -49,6 +52,7 @@ body {
                 
             }
         }
+        
         
     }
 }
@@ -128,22 +132,26 @@ body {
                 display: inline-block;
                 font-size: 0.4rem;
                 font-weight: bold;
+                width: 100%;
                 margin: 0;
             }
             .darkbutton {
                 color: #ddd;
-                background-color: #222222;
-                border-radius: 15px;
+                font-weight: 700;
+                font-size: 13px;
+                background-color: #43005d;
+                padding: 5px;
+                border-radius: 10px;
+                margin-left: 10px;
                 margin-bottom: 0.3rem;
+                float: right;
             }
         }
-        
+       
     }
     .post:hover {
-        background-color: $transitioncolor;
-    }
-
-
+        border: 2px solid #43005d;
+    } 
 
 }
 
@@ -167,5 +175,9 @@ body {
             vertical-align: middle;
             display: inline-block;
         };
+        
     }
+    .chat:hover {
+        border: 2px solid #43005d;
+    } 
 }
