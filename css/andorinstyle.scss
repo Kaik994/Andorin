@@ -1,9 +1,19 @@
 /* andorinstyle.scss */
 
 /* Página dos posts */ 
+/*Cores anteriores: #73d8f7 #c4fdff */
+/*Azul clarinho: #eafcff */
+/* Outro azul anteriormente utilizado: #90fbff  */
 
-$verdinho : #73d8f7;
+/* Outro azul anteriormente utilizado: #b0f3ff     */
 
+$verdinho :  #effcff;
+
+body {
+    font-family: Montserrat;
+    background-color: rgb(251, 255, 250);
+
+}
 
 .nd-anuncios {
     padding: 30px;
@@ -11,6 +21,9 @@ $verdinho : #73d8f7;
         font-size: 0.4rem;
         font-weight: bold;
         margin-right: 1em;
+        border-radius: 15px;
+        background-color: $verdinho;
+        padding: 1em;
         
           img { 
               height: 100px;
@@ -19,9 +32,29 @@ $verdinho : #73d8f7;
               margin-bottom: 1em;
               /* border: solid black 2px; */
               border-radius: 15px;
-          }
-      }
+            }
+    }
+    .anuncio:hover {
+        border: 2px solid #43005d;
+    } 
              
+}
+
+@media (max-width: 900px) { /*Não parece estar funcionando direito */
+    .nd-anuncios {
+        width: 100%;
+        .anuncio {
+            width: 25%;
+            margin: auto;
+            img {
+                width: 100%;
+                margin: 15px auto;
+                
+            }
+        }
+        
+        
+    }
 }
 
 
@@ -37,6 +70,7 @@ $verdinho : #73d8f7;
         border-radius: 15px;
         padding: 30px 30px 15px 30px;
         background-color: $verdinho;
+        transition-duration: 500ms;
         
         .top-of-the-post {
             display: flex;
@@ -98,20 +132,26 @@ $verdinho : #73d8f7;
                 display: inline-block;
                 font-size: 0.4rem;
                 font-weight: bold;
+                width: 100%;
                 margin: 0;
             }
             .darkbutton {
                 color: #ddd;
-                background-color: #222222;
-                border-radius: 15px;
+                font-weight: 700;
+                font-size: 13px;
+                background-color: #43005d;
+                padding: 5px;
+                border-radius: 10px;
+                margin-left: 10px;
                 margin-bottom: 0.3rem;
+                float: right;
             }
         }
-        
+       
     }
-    
-
-
+    .post:hover {
+        border: 2px solid #43005d;
+    } 
 
 }
 
@@ -135,5 +175,9 @@ $verdinho : #73d8f7;
             vertical-align: middle;
             display: inline-block;
         };
+        
     }
+    .chat:hover {
+        border: 2px solid #43005d;
+    } 
 }
