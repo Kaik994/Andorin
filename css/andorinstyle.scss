@@ -131,6 +131,13 @@ a.nd-topbar-nav-button{
                 height: 100px;
                 border-radius: 15px;
             }
+            textarea{
+                width: 100%;
+                padding: 0.5em;
+                &:focus{
+                    outline: none !important;
+                }
+            }
         }
 
         .bottom-of-the-post {
