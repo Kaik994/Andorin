@@ -14,7 +14,7 @@
     <body >
         <header style="position: fixed; width: 100%; z-index: 1; "> <!--Fiz algumas gambiarras nesse style do header.-->
             <!--Começa a barra de navegação em geral, cujas subdivisões se esclarecem a seguir.-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="font-size: 17px; background-color: #280038 !important; height: 2.8em;" >
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="font-size: 17px; background-color: #222 !important; height: 2.8em;" >
                 <!-- Logo do Andorin (basicamente o próprio nome apenas, por enquanto) e o botão em que colapsa o menu no mobile-->
                 <a class="navbar-brand " style="color: white; font-size: 24px;" href="#">Andorin</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +25,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav mr-auto">
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" style="color: white;" href="#" 
+                      <a class="nav-link dropdown-toggle nd-topbar-nav-button" style="color: white;" href="#" 
                       id="navbarDropdown" role="button" data-toggle="dropdown" 
                       aria-haspopup="true" aria-expanded="false">
                         Notifications
@@ -44,15 +44,15 @@
                       </div>
                     </li>
                     <li class="nav-item active " > 
-                      <a class="nav-link" style="color: white;"  href="#"> 
+                      <a class="nav-link nd-topbar-nav-button" style="color: white;"  href="#"> 
                         What's happening <span class="sr-only">(current)</span>
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" style="color: white;" href="#"> Profile </a>
+                      <a class="nav-link nd-topbar-nav-button" style="color: white;" href="#"> Profile </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" style="color: white;" href="#"> Settings </a>
+                      <a class="nav-link nd-topbar-nav-button" style="color: white;" href="#"> Settings </a>
                     </li>
                     
                   </ul>
@@ -61,7 +61,7 @@
                     <input class="form-control mr-sm-2" style="height: 35px;" 
                     type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-info my-2 my-sm-0 btn-sm" 
-                    style="height: 35px; font-size: 17px;" type="submit">
+                    style="height: 35px; font-size: 17px; background-color:#222; border: 1px solid cyan" type="submit">
                       Search
                     </button>
                   </form>
